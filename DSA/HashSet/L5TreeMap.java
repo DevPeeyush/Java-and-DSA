@@ -1,8 +1,6 @@
 package DSA.HashSet;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.TreeMap;
+import java.util.*;
 
 public class L5TreeMap {
     public static void main(String[] args) {
@@ -17,5 +15,6 @@ public class L5TreeMap {
         System.out.println(tm.remove("Peeyush"));
         System.out.println(tm);
         System.out.println("Size is : " + tm.size());
+
     }
 }
