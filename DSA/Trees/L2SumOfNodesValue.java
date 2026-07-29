@@ -54,6 +54,7 @@ public class L2SumOfNodesValue {
         System.out.println(a.left.right.val);
         System.out.println("Value of nodes in tree : ");
         display(a);
+        System.out.print("\n--------------------------------------");
         System.out.println();
         System.out.println("Sum of values of  nodes in tree : " + getSum(a));
         System.out.println("Product of values of  nodes in tree : " + getProduct(a));
