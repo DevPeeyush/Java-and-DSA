@@ -32,7 +32,7 @@ public class L7LCS {
         for (int[] row : dp) {
             Arrays.fill(row, -1);
         }
-        System.out.println("Longest Common Subsequence is : "+lcs(m - 1, n - 1, a, b,dp));
+        System.out.print("Longest Common Subsequence is : "+lcs(m - 1, n - 1, a, b,dp));
     }
 }
 
