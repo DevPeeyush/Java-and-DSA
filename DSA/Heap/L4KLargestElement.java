@@ -1,8 +1,9 @@
 package DSA.Heap;
 
 import java.util.PriorityQueue;
-
-public class Q1KLargestElement {
+// Using minHeap to find kth largest element
+// LeetCode 215
+public class L4KLargestElement {
     public static int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int num : nums){

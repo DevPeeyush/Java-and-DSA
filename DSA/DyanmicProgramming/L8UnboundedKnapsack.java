@@ -1,12 +1,12 @@
 package DSA.DyanmicProgramming;
-/*      Unbounded Knapsack using recursion + Memoization     */
-public class L4Knapsack2 {
+
+public class L8UnboundedKnapsack {
     public static int profit(int i, int[] wt, int[] val, int C, int[][] dp) {
         if (i == wt.length) return 0;
         if (dp[i][C] != -1) return dp[i][C];
         int skip = profit(i + 1, wt, val, C, dp);
         if (wt[i] > C) return dp[i][C] = skip;
-        int pick = val[i] + profit(i+1, wt, val, C - wt[i], dp);
+        int pick = val[i] + profit(i, wt, val, C - wt[i], dp);
         return dp[i][C] = Math.max(pick, skip);
     }
 

@@ -1,7 +1,7 @@
 package DSA.DyanmicProgramming;
 
 import java.util.Arrays;
-
+/*--- Using recursion + memoization approach---*/
 public class L5SubSet2 {
     private static boolean subset(int i, int[] arr, int target, int[][] dp) {
         if (i == arr.length) {

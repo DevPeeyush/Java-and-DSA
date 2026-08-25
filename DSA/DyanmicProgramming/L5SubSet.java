@@ -1,6 +1,6 @@
 package DSA.DyanmicProgramming;
-
 public class L5SubSet {
+    /*--- Using recursion approach---*/
     private static boolean subset(int i, int[] arr, int target) {
         if(i==arr.length){
             if(target==0) return true;
