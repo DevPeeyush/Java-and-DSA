@@ -1,26 +1,6 @@
 package DSA.SlidingWindow;
 
-import java.util.Scanner;
-
-public class L2 {
-//    M-1:
-//    public static int minSubArrayLen(int target, int[] nums) {
-//        int n = nums.length;
-//        int minLen = Integer.MAX_VALUE;
-//        for(int i = 0 ; i<n ;i++){
-//            int sum = 0 , j = i;
-//            while(j<n && sum<target){
-//                sum += nums[j];
-//                j++;
-//            }
-//            j--;
-//            int len = j-i+1;
-//            if(sum>=target) minLen = Math.min(len,minLen);
-//        }
-//        if(minLen == Integer.MAX_VALUE) return 0;
-//        return minLen;
-//    }
-
+public class L2MinSubArrayM2 {
     //    M-2:
     public static int minSubArrayLen(int target, int[] arr) {
         int n = arr.length, minLen = Integer.MAX_VALUE;
